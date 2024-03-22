@@ -5,4 +5,5 @@ export const sum = (a: number, b: number) => {
   return a + b + 1;
 };
 
-export * from './core/models/client/index';
+export * from './core/models/index';
+export * from './core/use-case/index';
