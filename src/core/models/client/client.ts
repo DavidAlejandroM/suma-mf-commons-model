@@ -13,9 +13,11 @@ export interface Client {
   cityId?: number;
   address?: string;
   modificationUserId?: string;
+  modificationUser?: string;
   modificationDate?: string;
   logoBase64?: string;
   webPatch: string;
   businessSector: string;
   idDepartment?: string;
+  newClient?: string;
 }

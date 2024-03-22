@@ -1,8 +1,12 @@
+import { FilePostChat } from './file-post-chat';
+import { MediaType } from './media-type-enum';
+
 export interface Media {
   id: string;
-  type: string;
+  type: MediaType;
   url: string;
   thumbnailUrl: string;
-  filePost: any;
+  filePost: FilePostChat;
   fileName: string;
+  fileChat: FilePostChat;
 }
