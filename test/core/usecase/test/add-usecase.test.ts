@@ -1,4 +1,4 @@
-import {AddUseCase} from '../../../../src/core/use-case/test/add-usecase'
+import { AddUseCase } from '../../../../src/core/use-case/test/add-usecase';
 
 describe('AddUseCase', () => {
   it('debería sumar dos números y devolver el resultado', async () => {

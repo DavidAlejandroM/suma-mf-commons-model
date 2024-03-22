@@ -1,5 +1,4 @@
 export interface Message {
-    data: any;
-    content: string;
-  }
-  
+  data: any;
+  content: string;
+}
