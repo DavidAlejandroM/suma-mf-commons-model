@@ -1,2 +1,2 @@
-export * from './mapper';
-export * from './use-case';
+export { Mapper } from './mapper';
+export { UseCase } from './use-case';

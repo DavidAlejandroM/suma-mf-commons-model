@@ -1,4 +1,4 @@
-import { Department } from '../department/department';
+import { Department } from '../index';
 
 export interface Client {
   id?: string;
@@ -17,4 +17,5 @@ export interface Client {
   logoBase64?: string;
   webPatch: string;
   businessSector: string;
+  idDepartment?: string;
 }
