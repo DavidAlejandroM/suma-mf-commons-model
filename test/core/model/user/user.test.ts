@@ -1,4 +1,4 @@
-import { RoleEnum, User } from "../../../../src";
+import { RoleEnum, User } from '../../../../src';
 
 describe('User Interface', () => {
   // Caso de prueba para la creación de un usuario y la verificación de tipos básicos
