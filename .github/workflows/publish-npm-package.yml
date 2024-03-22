@@ -4,13 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    types: [closed]
-    paths:
-      - '**.js'
-      - 'package.json'
-  push:
-    branches:
-      - main
 
 jobs:
   publish:
