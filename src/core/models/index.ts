@@ -6,3 +6,6 @@ export { ResponseToken } from './common/response-token';
 export { Response } from './common/response';
 export { Department } from './department/department';
 export { User } from './user/user';
+export { MediaType } from './common/media-type-enum';
+export { FilePostChat } from './common/file-post-chat';
+export { RoleEnum } from './role/role-enum';

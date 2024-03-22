@@ -9,6 +9,6 @@ export interface ResponseToken {
   user: User;
   client: Client;
   clients: Client[];
-  temporalPassword: boolean;
+  isTemporalPassword: boolean;
   activeRole: string;
 }

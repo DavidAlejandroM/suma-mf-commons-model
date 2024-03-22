@@ -10,4 +10,5 @@ export interface Department {
   modificationDate?: string;
   clientName?: any;
   enable?: boolean;
+  newDepartment?: boolean;
 }
