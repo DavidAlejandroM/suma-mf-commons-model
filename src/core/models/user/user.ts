@@ -1,3 +1,4 @@
+import { Media } from '../common/media';
 import { RoleEnum } from '../role/role-enum';
 
 export interface User {
@@ -26,4 +27,27 @@ export interface User {
   typeDocumentId: string;
   profilePhotoPath: string;
   profilePhotoBase64: string;
+  state: string;
+  userType: string | null;
+  idConnection: string;
+  description: string;
+  username: string | null;
+  password: string | null;
+  idTypeUser: string | null;
+  files: any | null;
+  roles: any | null;
+  lastConnection: string;
+  lastModifiedDate: string;
+  departmentRootName: string;
+  clientName: string;
+  idDepartment: string;
+  idClient: string;
+  fullName: string;
+  isDepartment: boolean;
+  idAdminUsers: string | null;
+  profileImageFile: Media | null;
+  cropImageFile: Media | null;
+  patchName: string | null;
+  messagePending: any | null;
+  isSupervisor: boolean;
 }

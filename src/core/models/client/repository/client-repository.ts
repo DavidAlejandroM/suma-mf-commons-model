@@ -1,5 +1,6 @@
+import { Response } from '../../common/response';
 import { Client } from '../client';
 
 export interface ClientRepository {
-  get(): Promise<Client>;
+  get(): Promise<Response<Client>>;
 }
