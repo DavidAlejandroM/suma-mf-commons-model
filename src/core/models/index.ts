@@ -12,6 +12,7 @@ export { RoleEnum } from './role/role-enum';
 export { City } from './location/city';
 export { State } from './location/state';
 export { Country } from './location/country';
+export { Role } from './role/role';
 // export { CommentResponse } from './post/comment-response';
 // export { FilePost } from './post/file-post';
 // export { LinkPreview } from './post/link-preview';
